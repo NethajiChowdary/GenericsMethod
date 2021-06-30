@@ -4,13 +4,13 @@ public class PrintArray
 {
 	public static void main(String[] args)
 	{	
-		int a = 20 , b= 30 , c= 25;
-		if ( a>b && a>c )
-		System.out.println(a+ " is the largest number");
-		else if ( b>a && b>c)
-		System.out.println(b+  " is the largest number");
+		float x =10.5f , y = 27.8f , z = 76.5f;
+		if ( x>y && x>z )
+		System.out.println(x+ " is the largest number");
+		else if ( y>x && y>z)
+		System.out.println(y+  " is the largest number");
 		else
-		System.out.println(c+  " is the largest number");
+		System.out.println(z+  " is the largest number");
 	}
 }	
 		
